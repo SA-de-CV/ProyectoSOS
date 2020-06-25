@@ -276,12 +276,41 @@ public class BibliotecaJuegos extends javax.swing.JInternalFrame {
         jButton69 = new javax.swing.JButton();
         jLabel41 = new javax.swing.JLabel();
         jDialog19 = new javax.swing.JDialog();
+        jPanel19 = new javax.swing.JPanel();
+        jScrollPane29 = new javax.swing.JScrollPane();
+        jTextPane11 = new javax.swing.JTextPane();
+        jButton70 = new javax.swing.JButton();
+        jLabel68 = new javax.swing.JLabel();
         jDialog20 = new javax.swing.JDialog();
+        jPanel20 = new javax.swing.JPanel();
+        jScrollPane30 = new javax.swing.JScrollPane();
+        jTextArea19 = new javax.swing.JTextArea();
+        jButton71 = new javax.swing.JButton();
+        jLabel105 = new javax.swing.JLabel();
         jDialog21 = new javax.swing.JDialog();
+        jPanel21 = new javax.swing.JPanel();
+        jScrollPane31 = new javax.swing.JScrollPane();
+        jTextPane12 = new javax.swing.JTextPane();
+        jButton72 = new javax.swing.JButton();
+        jLabel106 = new javax.swing.JLabel();
         jDialog22 = new javax.swing.JDialog();
+        jPanel22 = new javax.swing.JPanel();
+        jScrollPane32 = new javax.swing.JScrollPane();
+        jTextPane13 = new javax.swing.JTextPane();
+        jButton73 = new javax.swing.JButton();
+        jLabel107 = new javax.swing.JLabel();
         jDialog23 = new javax.swing.JDialog();
+        jPanel23 = new javax.swing.JPanel();
+        jScrollPane33 = new javax.swing.JScrollPane();
+        jTextArea20 = new javax.swing.JTextArea();
+        jButton74 = new javax.swing.JButton();
+        jLabel108 = new javax.swing.JLabel();
         jDialog24 = new javax.swing.JDialog();
-        jDialog25 = new javax.swing.JDialog();
+        jPanel24 = new javax.swing.JPanel();
+        jScrollPane34 = new javax.swing.JScrollPane();
+        jTextPane14 = new javax.swing.JTextPane();
+        jButton75 = new javax.swing.JButton();
+        jLabel109 = new javax.swing.JLabel();
         jPanel1 = new javax.swing.JPanel();
         jToolBar1 = new javax.swing.JToolBar();
         jButton1 = new javax.swing.JButton();
@@ -1325,82 +1354,153 @@ public class BibliotecaJuegos extends javax.swing.JInternalFrame {
 
         jDialog18.getContentPane().add(jPanel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 710, 400));
 
-        javax.swing.GroupLayout jDialog19Layout = new javax.swing.GroupLayout(jDialog19.getContentPane());
-        jDialog19.getContentPane().setLayout(jDialog19Layout);
-        jDialog19Layout.setHorizontalGroup(
-            jDialog19Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 535, Short.MAX_VALUE)
-        );
-        jDialog19Layout.setVerticalGroup(
-            jDialog19Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 354, Short.MAX_VALUE)
-        );
+        jDialog19.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        javax.swing.GroupLayout jDialog20Layout = new javax.swing.GroupLayout(jDialog20.getContentPane());
-        jDialog20.getContentPane().setLayout(jDialog20Layout);
-        jDialog20Layout.setHorizontalGroup(
-            jDialog20Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 561, Short.MAX_VALUE)
-        );
-        jDialog20Layout.setVerticalGroup(
-            jDialog20Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 349, Short.MAX_VALUE)
-        );
+        jPanel19.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        javax.swing.GroupLayout jDialog21Layout = new javax.swing.GroupLayout(jDialog21.getContentPane());
-        jDialog21.getContentPane().setLayout(jDialog21Layout);
-        jDialog21Layout.setHorizontalGroup(
-            jDialog21Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
-        );
-        jDialog21Layout.setVerticalGroup(
-            jDialog21Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
-        );
+        jTextPane11.setBackground(new java.awt.Color(0, 0, 0));
+        jTextPane11.setFont(new java.awt.Font("Monospaced", 0, 12)); // NOI18N
+        jTextPane11.setForeground(new java.awt.Color(255, 255, 255));
+        jTextPane11.setText("REQUISITOS DEL SISTEMA\nMÍNIMO:\nSO: Windows 7 (64 bit) or Newer (64 bit) Windows OS\nProcesador: 2.5 GHz Dual core\nMemoria: 4 GB de RAM\nGráficos: NVIDIA GeForce 760, AMD Radeon R7 270X\nDirectX: Versión 11\nRed: Conexión de banda ancha a Internet\nAlmacenamiento: 20 GB de espacio disponible\n\nRECOMENDADO:\nSO: Windows 7 (64 bit) or Newer (64 bit) Windows OS\nProcesador: 3.0+ GHz Quad core\nMemoria: 8 GB de RAM\nGráficos: NVIDIA GeForce GTX 1060, AMD Radeon RX 470\nDirectX: Versión 11\nRed: Conexión de banda ancha a Internet\nAlmacenamiento: 20 GB de espacio disponible\n");
+        jTextPane11.setDisabledTextColor(new java.awt.Color(255, 255, 255));
+        jTextPane11.setEnabled(false);
+        jScrollPane29.setViewportView(jTextPane11);
 
-        javax.swing.GroupLayout jDialog22Layout = new javax.swing.GroupLayout(jDialog22.getContentPane());
-        jDialog22.getContentPane().setLayout(jDialog22Layout);
-        jDialog22Layout.setHorizontalGroup(
-            jDialog22Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
-        );
-        jDialog22Layout.setVerticalGroup(
-            jDialog22Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
-        );
+        jPanel19.add(jScrollPane29, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 20, 420, 340));
 
-        javax.swing.GroupLayout jDialog23Layout = new javax.swing.GroupLayout(jDialog23.getContentPane());
-        jDialog23.getContentPane().setLayout(jDialog23Layout);
-        jDialog23Layout.setHorizontalGroup(
-            jDialog23Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
-        );
-        jDialog23Layout.setVerticalGroup(
-            jDialog23Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
-        );
+        jButton70.setBackground(new java.awt.Color(119, 150, 5));
+        jButton70.setFont(new java.awt.Font("Sitka Small", 0, 11)); // NOI18N
+        jButton70.setText("Regresar a Biblioteca");
+        jPanel19.add(jButton70, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 200, 180, 40));
 
-        javax.swing.GroupLayout jDialog24Layout = new javax.swing.GroupLayout(jDialog24.getContentPane());
-        jDialog24.getContentPane().setLayout(jDialog24Layout);
-        jDialog24Layout.setHorizontalGroup(
-            jDialog24Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
-        );
-        jDialog24Layout.setVerticalGroup(
-            jDialog24Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
-        );
+        jLabel68.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/requi.jpg"))); // NOI18N
+        jPanel19.add(jLabel68, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 710, 400));
 
-        javax.swing.GroupLayout jDialog25Layout = new javax.swing.GroupLayout(jDialog25.getContentPane());
-        jDialog25.getContentPane().setLayout(jDialog25Layout);
-        jDialog25Layout.setHorizontalGroup(
-            jDialog25Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
-        );
-        jDialog25Layout.setVerticalGroup(
-            jDialog25Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
-        );
+        jDialog19.getContentPane().add(jPanel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 710, 400));
+
+        jDialog20.setPreferredSize(new java.awt.Dimension(710, 400));
+        jDialog20.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel20.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jTextArea19.setBackground(new java.awt.Color(0, 0, 0));
+        jTextArea19.setColumns(20);
+        jTextArea19.setFont(new java.awt.Font("Monospaced", 0, 12)); // NOI18N
+        jTextArea19.setForeground(new java.awt.Color(255, 255, 255));
+        jTextArea19.setRows(5);
+        jTextArea19.setText("REQUISITOS DEL SISTEMA\nMÍNIMO:\nRequiere un procesador y un sistema operativo de 64 bits\nSO: Windows 7/8.1/10 64-Bit\nProcesador: Athlon X4 880K @4GHz or better/Core i3-6100 @3.7GHz\nMemoria: 8 GB de RAM\nGráficos: Radeon HD 7850 or better/GeForce GTX 660 or better\nAlmacenamiento: 50 GB de espacio disponible\n\nRECOMENDADO:\nRequiere un procesador y un sistema operativo de 64 bits\nSO: Windows 10 64-Bit\nProcesador: FX 8150 @3.6GHz or better/Core i5-3550 @3.40GHz \nMemoria: 8 GB de RAM\nGráficos: Radeon R9 270x or better/GeForce GTX 670 or better\nRed: Conexión de banda ancha a Internet\nAlmacenamiento: 50 GB de espacio disponible");
+        jTextArea19.setDisabledTextColor(new java.awt.Color(255, 255, 255));
+        jTextArea19.setEnabled(false);
+        jScrollPane30.setViewportView(jTextArea19);
+
+        jPanel20.add(jScrollPane30, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 30, 460, 310));
+
+        jButton71.setBackground(new java.awt.Color(119, 150, 5));
+        jButton71.setFont(new java.awt.Font("Sitka Small", 0, 11)); // NOI18N
+        jButton71.setText("Regresar a Biblioteca");
+        jPanel20.add(jButton71, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 190, 180, 40));
+
+        jLabel105.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/requi.jpg"))); // NOI18N
+        jPanel20.add(jLabel105, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 700, 400));
+
+        jDialog20.getContentPane().add(jPanel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 700, 400));
+
+        jDialog21.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel21.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jTextPane12.setBackground(new java.awt.Color(0, 0, 0));
+        jTextPane12.setFont(new java.awt.Font("Monospaced", 0, 12)); // NOI18N
+        jTextPane12.setText("REQUISITOS DEL SISTEMA\nMÍNIMO:\nRequiere un procesador y un sistema operativo de 64 bits\nSO: Windows 10\nProcesador: FX-6350 or Equivalent; Core i5-3570 or Equivalent\nMemoria: 8 GB de RAM\nGráficos: AMD: Radeon 7970/Radeon R9 280x or Equivalent; NVIDIA: GeForce GTX 760 \nDirectX: Versión 11\nAlmacenamiento: 50 GB de espacio disponible\n\nRECOMENDADO:\nRequiere un procesador y un sistema operativo de 64 bits\nSO: Windows 10\nProcesador: Ryzen 3 1300X or Equivalent; Core i7-4790 or Equivalent\nMemoria: 16 GB de RAM\nGráficos: AMD: Radeon RX 480 or Equivalent; NVIDIA: GeForce GTX 1060 \nDirectX: Versión 11\nRed: Conexión de banda ancha a Internet\nAlmacenamiento: 50 GB de espacio disponible");
+        jTextPane12.setDisabledTextColor(new java.awt.Color(255, 255, 255));
+        jTextPane12.setEnabled(false);
+        jScrollPane31.setViewportView(jTextPane12);
+
+        jPanel21.add(jScrollPane31, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 490, 370));
+
+        jButton72.setBackground(new java.awt.Color(119, 150, 5));
+        jButton72.setFont(new java.awt.Font("Sitka Small", 0, 11)); // NOI18N
+        jButton72.setText("Regresar a Biblioteca");
+        jPanel21.add(jButton72, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 190, 180, 40));
+
+        jLabel106.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/requi.jpg"))); // NOI18N
+        jLabel106.setToolTipText("");
+        jPanel21.add(jLabel106, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 710, 400));
+
+        jDialog21.getContentPane().add(jPanel21, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 710, 400));
+
+        jDialog22.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel22.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jTextPane13.setBackground(new java.awt.Color(0, 0, 0));
+        jTextPane13.setFont(new java.awt.Font("Monospaced", 0, 12)); // NOI18N
+        jTextPane13.setText("REQUISITOS DEL SISTEMA\nMÍNIMO:\nRequiere un procesador y un sistema operativo de 64 bits\nSO: Windows 8.1 de 64 bits, Windows 8 de 64 bits, Windows 7 de 64 bits\nProcesador: Intel Core 2 Quad CPU Q6600 a 2,4 GHz (4 CPU)/AMD Phenom\n 9850 Quad-Core (4 CPU) a 2,5 GHz.\nMemoria: 4 GB de RAM\nGráficos: NVIDIA 9800 GT 1 GB/AMD HD 4870 1 GB (DX 10, 10.1, 11).\nAlmacenamiento: 72 GB de espacio disponible\n\nRECOMENDADO:\nRequiere un procesador y un sistema operativo de 64 bits\nSO: Windows 8.1 de 64 bits, Windows 8 de 64 bits, Windows 7 de 64 bits\nProcesador: Intel Core i5 3470 a 3,2 GHz (4 CPU)/AMD X8 FX-8350 a 4 GHz (8 CPU).\nMemoria: 8 GB de RAM\nGráficos: NVIDIA GTX 660 2 GB/AMD HD7870 2 GB.\nAlmacenamiento: 72 GB de espacio disponible");
+        jTextPane13.setDisabledTextColor(new java.awt.Color(255, 255, 255));
+        jTextPane13.setEnabled(false);
+        jScrollPane32.setViewportView(jTextPane13);
+
+        jPanel22.add(jScrollPane32, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 490, 370));
+
+        jButton73.setBackground(new java.awt.Color(119, 150, 5));
+        jButton73.setFont(new java.awt.Font("Sitka Small", 0, 11)); // NOI18N
+        jButton73.setText("Regresar a Biblioteca");
+        jPanel22.add(jButton73, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 190, 180, 40));
+
+        jLabel107.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/requi.jpg"))); // NOI18N
+        jPanel22.add(jLabel107, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 710, 400));
+
+        jDialog22.getContentPane().add(jPanel22, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 710, 400));
+
+        jDialog23.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel23.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jScrollPane33.setBackground(new java.awt.Color(0, 0, 0));
+
+        jTextArea20.setBackground(new java.awt.Color(0, 0, 0));
+        jTextArea20.setColumns(20);
+        jTextArea20.setFont(new java.awt.Font("Monospaced", 0, 12)); // NOI18N
+        jTextArea20.setRows(5);
+        jTextArea20.setText("Requisitos Mínimos\nCPU: Intel Pentium D ó AMD Athlon 64 (K8) 2.6 GHz\nRAM: 2GB\nGPU (Integrada): Intel HD Graphics ó AMD (antes ATI)\n Radeon HD con OpenGL 2.1\nTarjeta gráfica: Nvidia GeForce 9600 GT ó AMD Radeon\n HD 2400 con OpenGL 3.1\nDisco duro: Al menos 200 MB libres\nJava: Java 6 Release 45\n\nRequisitos Recomendados\nCPU: Intel Core i3 ó AMD Athlon II (K10) 2.8 GHz\nRAM: 4GB\nTarjeta gráfica: GeForce 2xx Series ó AMD Radeon HD \n Series con OpenGL 3.3\nDisco duro: 1GB\nJava: Java 7");
+        jTextArea20.setDisabledTextColor(new java.awt.Color(255, 255, 255));
+        jTextArea20.setEnabled(false);
+        jScrollPane33.setViewportView(jTextArea20);
+
+        jPanel23.add(jScrollPane33, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 30, 390, 330));
+
+        jButton74.setBackground(new java.awt.Color(119, 150, 5));
+        jButton74.setFont(new java.awt.Font("Sitka Small", 0, 11)); // NOI18N
+        jButton74.setText("Regresar a Biblioteca");
+        jPanel23.add(jButton74, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 190, 180, 40));
+
+        jLabel108.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/requi.jpg"))); // NOI18N
+        jPanel23.add(jLabel108, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 710, 400));
+
+        jDialog23.getContentPane().add(jPanel23, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 710, 400));
+
+        jDialog24.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel24.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jTextPane14.setBackground(new java.awt.Color(0, 0, 0));
+        jTextPane14.setFont(new java.awt.Font("Monospaced", 0, 12)); // NOI18N
+        jTextPane14.setText("REQUISITOS DEL SISTEMA\nMÍNIMO:\nRequiere un procesador y un sistema operativo de 64 bits\nProcesador: Intel Core i5-750, 2.66 GHz / AMD Phenom II X4 965, \n3.4 GHz or AMD Ryzen™ 3 1200, 3.1 GHz\nMemoria: 4 GB de RAM\nGráficos: NVIDIA® GeForce™ GTX 670 or NVIDIA® GeForce™ \nGTX 1050 / AMD® Radeon™ HD 7950 or AMD® Radeon™ R9 270\nRed: Conexión de banda ancha a Internet\nAlmacenamiento: 52 GB de espacio disponible\n\nRECOMENDADO:\nRequiere un procesador y un sistema operativo de 64 bits\nProcesador: Intel Core i3-2100, 3.10 GHz / AMD FX-6300,\n 3.5 GHz or AMD Ryzen™ 5 1400, 3.2 GHz\nMemoria: 8 GB de RAM\nGráficos: NVIDIA® GeForce™ GTX 780 or NVIDIA® GeForce™ \nGTX 1060-6GB / AMD® Radeon™ R9 290 or RX 570\nRed: Conexión de banda ancha a Internet\nAlmacenamiento: 60 GB de espacio disponible");
+        jTextPane14.setDisabledTextColor(new java.awt.Color(255, 255, 255));
+        jTextPane14.setEnabled(false);
+        jScrollPane34.setViewportView(jTextPane14);
+
+        jPanel24.add(jScrollPane34, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 430, 370));
+
+        jButton75.setBackground(new java.awt.Color(119, 150, 5));
+        jButton75.setFont(new java.awt.Font("Sitka Small", 0, 11)); // NOI18N
+        jButton75.setText("Regresar a Biblioteca");
+        jPanel24.add(jButton75, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 190, 180, 40));
+
+        jLabel109.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/requi.jpg"))); // NOI18N
+        jPanel24.add(jLabel109, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 710, 400));
+
+        jDialog24.getContentPane().add(jPanel24, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 710, 400));
 
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -1632,6 +1732,12 @@ public class BibliotecaJuegos extends javax.swing.JInternalFrame {
     private javax.swing.JButton jButton68;
     private javax.swing.JButton jButton69;
     private javax.swing.JButton jButton7;
+    private javax.swing.JButton jButton70;
+    private javax.swing.JButton jButton71;
+    private javax.swing.JButton jButton72;
+    private javax.swing.JButton jButton73;
+    private javax.swing.JButton jButton74;
+    private javax.swing.JButton jButton75;
     private javax.swing.JButton jButton8;
     private javax.swing.JButton jButton9;
     private javax.swing.JDialog jDialog1;
@@ -1650,7 +1756,6 @@ public class BibliotecaJuegos extends javax.swing.JInternalFrame {
     private javax.swing.JDialog jDialog22;
     private javax.swing.JDialog jDialog23;
     private javax.swing.JDialog jDialog24;
-    private javax.swing.JDialog jDialog25;
     private javax.swing.JDialog jDialog3;
     private javax.swing.JDialog jDialog4;
     private javax.swing.JDialog jDialog5;
@@ -1665,6 +1770,11 @@ public class BibliotecaJuegos extends javax.swing.JInternalFrame {
     private javax.swing.JLabel jLabel102;
     private javax.swing.JLabel jLabel103;
     private javax.swing.JLabel jLabel104;
+    private javax.swing.JLabel jLabel105;
+    private javax.swing.JLabel jLabel106;
+    private javax.swing.JLabel jLabel107;
+    private javax.swing.JLabel jLabel108;
+    private javax.swing.JLabel jLabel109;
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel12;
     private javax.swing.JLabel jLabel13;
@@ -1727,6 +1837,7 @@ public class BibliotecaJuegos extends javax.swing.JInternalFrame {
     private javax.swing.JLabel jLabel65;
     private javax.swing.JLabel jLabel66;
     private javax.swing.JLabel jLabel67;
+    private javax.swing.JLabel jLabel68;
     private javax.swing.JLabel jLabel69;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel70;
@@ -1771,7 +1882,13 @@ public class BibliotecaJuegos extends javax.swing.JInternalFrame {
     private javax.swing.JPanel jPanel16;
     private javax.swing.JPanel jPanel17;
     private javax.swing.JPanel jPanel18;
+    private javax.swing.JPanel jPanel19;
     private javax.swing.JPanel jPanel2;
+    private javax.swing.JPanel jPanel20;
+    private javax.swing.JPanel jPanel21;
+    private javax.swing.JPanel jPanel22;
+    private javax.swing.JPanel jPanel23;
+    private javax.swing.JPanel jPanel24;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel4;
     private javax.swing.JPanel jPanel5;
@@ -1800,7 +1917,13 @@ public class BibliotecaJuegos extends javax.swing.JInternalFrame {
     private javax.swing.JScrollPane jScrollPane26;
     private javax.swing.JScrollPane jScrollPane27;
     private javax.swing.JScrollPane jScrollPane28;
+    private javax.swing.JScrollPane jScrollPane29;
     private javax.swing.JScrollPane jScrollPane3;
+    private javax.swing.JScrollPane jScrollPane30;
+    private javax.swing.JScrollPane jScrollPane31;
+    private javax.swing.JScrollPane jScrollPane32;
+    private javax.swing.JScrollPane jScrollPane33;
+    private javax.swing.JScrollPane jScrollPane34;
     private javax.swing.JScrollPane jScrollPane4;
     private javax.swing.JScrollPane jScrollPane5;
     private javax.swing.JScrollPane jScrollPane6;
@@ -1817,7 +1940,9 @@ public class BibliotecaJuegos extends javax.swing.JInternalFrame {
     private javax.swing.JTextArea jTextArea16;
     private javax.swing.JTextArea jTextArea17;
     private javax.swing.JTextArea jTextArea18;
+    private javax.swing.JTextArea jTextArea19;
     private javax.swing.JTextArea jTextArea2;
+    private javax.swing.JTextArea jTextArea20;
     private javax.swing.JTextArea jTextArea3;
     private javax.swing.JTextArea jTextArea4;
     private javax.swing.JTextArea jTextArea5;
@@ -1827,6 +1952,10 @@ public class BibliotecaJuegos extends javax.swing.JInternalFrame {
     private javax.swing.JTextArea jTextArea9;
     private javax.swing.JTextPane jTextPane1;
     private javax.swing.JTextPane jTextPane10;
+    private javax.swing.JTextPane jTextPane11;
+    private javax.swing.JTextPane jTextPane12;
+    private javax.swing.JTextPane jTextPane13;
+    private javax.swing.JTextPane jTextPane14;
     private javax.swing.JTextPane jTextPane2;
     private javax.swing.JTextPane jTextPane3;
     private javax.swing.JTextPane jTextPane4;
